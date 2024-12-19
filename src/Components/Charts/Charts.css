@@ -1,0 +1,21 @@
+
+.Charts-main{
+    margin: auto;
+    color: white;
+}
+#main-heading{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline double;
+}
+.heading{
+    color: wheat;
+    margin: 20px;
+
+}
+.Charts{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    background-color: var(--primary);
+}

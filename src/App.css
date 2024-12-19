@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.App{
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  scroll-behavior: smooth;
+   background-image: url(Asets/background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+:root{
+  /* --primary:rgba(250, 182, 9, 0.822); */
+    --primary:rgba(71, 64, 44, 0.842);
+    --primary2:#19B228;
+}
+
+
+.stroke-text{
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+
+.button3{
+  width: 20vw;
+  height: 3vw;
+  background-color:#19B228;
+  position: relative;
+  top: 3.5rem;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  left: 15rem;
+  padding-top: 3px;
+  box-shadow: 2px 1px 3px 0px rgb(111, 243, 3);
+  border: none;
+  transition: 0.5s;
+}
+.button3:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+  color:#19B228 ;
+  background-color: white;
+}
+
+hr{
+ border: 1px solid var(--primary2);
+}
+
+.uinck_heading{
+  margin: 20px;
+}
+.Barchart{
+width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

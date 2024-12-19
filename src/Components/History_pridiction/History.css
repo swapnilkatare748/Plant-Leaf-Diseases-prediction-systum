@@ -1,0 +1,38 @@
+.History{
+   height:100%;
+}
+.History-hero{
+      width: 65%;
+      margin: auto;
+      padding: 50px 100px;
+      /* background-color: red; */
+}
+.History-hero>h1{
+  text-align: center;
+  text-decoration: double underline;
+  font-size: 4em;
+  color: white;
+  /* color: var(--primary2); */
+}
+
+#list-history{
+  background-color: var(--primary);
+  border-radius: 10px;
+  width: 100%;
+  margin:  20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid 5px var(--primary2);
+}
+
+#history-img{
+ border-radius: 20px 0;
+ padding: 10px;
+ border: 2px solid var(--primary2);
+}
+
+#result-history{
+  color: white;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Upload-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    width: 70%;
+    margin: auto;
+    color:  var(--primary2);
+    height: 60vh;
+    border:solid 5px var(--primary2) ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.658);
+    border-radius: 10px;
+    background-color: var(--primary);
+    display: flex;
+    animation: borderPulse 2s  infinite ease-in-out;
+    transition: all 2s ;
+}  
+@keyframes borderPulse {
+    0%, 100% { border-width: 3px; }
+    50% { border-width: 7px; }
+}
+
+.hero1{
+ width: 100%;
+ height: 100%;
+}
+
+.headings{
+    margin: 2rem;
+}
+.headings>h2{
+    margin-left: 5rem;
+}
+.file_container{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-between;
+}
+#file-upload{
+    margin-left:  0 rem;
+}
+.custom-file-upload{
+    margin-right: 20rem;
+}
+.Preview-image{
+    margin-right: 5rem;
+    padding: 5px; 
+    max-width: 60%;
+    max-height: 70%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains aspect ratio */
+    border: 1px solid var(--primary2);
+}
+.input-file{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* result  */
+.prediction-result{
+  width: auto;
+  height: 14vh;
+  margin-top: 3rem;
+
+  
+}
+.prediction-result>h2{
+  padding: 20px;
+  text-align: left;
+}
+.prediction-result>h2>span{
+    font-size: 15em;
+}
+.history{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .hero{
+        display: flex;
+         flex-direction: row;
+         width: 100%;
+         animation: none;
+         height: 80vh;
+         align-items: center;
+         align-items: flex-start;
+    }
+    .hero1{
+        height: 50%;
+      
+        
+    }
+    .file_container{
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .file_container>label{
+        width: 100%;
+        margin-left: 10rem;
+    }
+    .verify-button{
+        width: 40%;
+        height: 20px;
+        position: absolute;
+        top: 45rem;
+        left: 1rem;
+    }
+    .Preview-image{
+       position: absolute;
+        bottom: 5rem;
+        margin: auto;
+
+    }
+}

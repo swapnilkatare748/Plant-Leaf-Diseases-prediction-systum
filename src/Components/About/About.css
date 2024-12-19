@@ -1,0 +1,42 @@
+
+.about{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.about-hero{
+    height: 100%;
+    margin: auto;
+    color: white;
+    border-top: 2px solid var(--primary2);
+    width: 70%;
+    padding: 20px;
+}
+#main{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: var(--primary);
+   border-radius: 40px 0;
+   border: 3.5px solid var(--primary2);
+   /* height: 40vh; */
+}
+
+.list{
+   display: flex;
+  justify-content: space-around;
+}
+.list>img{
+    padding: 10px;
+    width: 200px;
+    height: 80%;
+    /* border: solid 2px var(--primary2); */
+    border-radius: 20px 0px;
+}
+#Member-info{
+width: 55%;
+}
+

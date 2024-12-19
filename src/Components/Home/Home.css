@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    height: 100%;
+    overflow: hidden;
+
+}
+.Hero{
+    width: 100%;
+    height: 95vh;
+}
+.heading{
+    display: flex;
+    color: #2B7403;
+    flex-direction: column;
+    width: 100%;
+}
+.logo2{
+    height:25rem ;
+    width: auto;
+}
+.heding-1{
+    display: flex;
+    width: 100%;
+    font-size: 5vw;
+    justify-content: flex-start;
+    margin: 20px 0 0 20px;
+}
+.heading-2{
+width: 100%;
+font-size: 4vw;
+text-align: center;
+position: absolute;
+margin-top: 20rem;
+}
+.identify{
+    margin-left: 10rem;
+    width: 100%;
+}
+.button-hero{
+    width: 20vw;
+    height: 3vw;
+    background-color:#19B228;
+    position: relative;
+    top: 3.5rem;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    left: 15rem;
+    padding-top: 3px;
+    box-shadow: 2px 1px 3px 0px rgb(111, 243, 3);
+    border: none;
+    transition: 0.5s;
+}
+
+.button-hero:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+    color:#19B228 ;
+    background-color: white;
+}
+.hero-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 700px) {
+    .logo2{
+        display: none;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .heding-1{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .heading-2{
+        font-size: 30px;
+        
+    }
+  }
